@@ -163,7 +163,17 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 .hide{display: none;}
 
 @media screen and (max-width:576px){
-.skills-container, .resume-container, footer, .items{flex-direction: column;}   
+.skills-container, .resume-container, footer, nav, nav > ul, .items, .banner{flex-direction: column;}   
+nav > ul{ gap: 20px;}
+  .btn-primary{margin-bottom: 20px;}
+
+
+.banner{margin: 20px;}
+.dp{
+    width: 100%;
+}
+
+.header{background-image: none;}
 
 footer, .about{padding: 20px;}
 
